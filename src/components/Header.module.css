@@ -1,0 +1,38 @@
+.header {
+  background-color: var(--navy);
+  color: var(--lightest-slate);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2.5rem;
+  padding-block: 0.5rem;
+  box-shadow: 0 10px 30px -10px var(--navy-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo {
+  img {
+    width: 3.75rem;
+  }
+}
+
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  font-size: var(--fz-xs);
+
+  span {
+    color: var(--green);
+  }
+
+  li {
+    color: var(--lightest-slate);
+  }
+
+  li:hover {
+    cursor: pointer;
+    color: var(--green);
+  }
+}

@@ -1,0 +1,103 @@
+.experiencesSection {
+  margin-inline: auto;
+  max-width: 46.25rem;
+  padding: 1rem;
+  letter-spacing: 0;
+  margin-bottom: 12.5rem;
+
+  .experiencesContainer {
+    .topic {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+      margin-bottom: 2rem;
+
+      h3 {
+        font-size: var(--fz-heading);
+        color: var(--lightest-slate);
+
+        &::after {
+          content: "";
+          display: inline-block;
+          position: relative;
+          top: -5px;
+          width: 300px;
+          margin-left: 1rem;
+          height: 1px;
+          background-color: var(--lightest-navy);
+        }
+      }
+    }
+
+    .experiences {
+      display: flex;
+      gap: 2rem;
+      padding-inline: 1rem;
+
+      .company {
+        font-size: var(--fz-xs);
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: -15px;
+          top: -2px;
+          display: inline-block;
+          width: 2px;
+          height: 20px;
+          background-color: var(--green);
+        }
+      }
+
+      .jobDetails {
+        .role {
+          margin-bottom: 1rem;
+
+          p {
+            font-size: var(--fz-xxl);
+            color: var(--lightest-slate);
+            line-height: 1;
+          }
+
+          span {
+            color: var(--light-slate);
+            font-size: var(--fz-xs);
+          }
+        }
+
+        .jobDescription {
+          ul {
+            li {
+              font-family: var(--font-sans);
+              font-size: var(--fz-md);
+              color: var(--slate);
+              margin-left: 1rem;
+              margin-bottom: 0.5rem;
+              position: relative;
+
+              &::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 8px;
+                left: -15px;
+                width: 2px;
+                height: 2px;
+                background-color: var(--green);
+              }
+            }
+          }
+
+          p {
+            margin-top: 1rem;
+            border-radius: var(--border-radius);
+            font-size: var(--fz-xs);
+            padding: 0.5rem;
+            background-color: var(--light-navy);
+          }
+        }
+      }
+    }
+  }
+}

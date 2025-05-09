@@ -1,0 +1,52 @@
+.aboutSection {
+  margin-inline: auto;
+  max-width: 56.25rem;
+  padding: 1rem;
+  letter-spacing: 0;
+  margin-bottom: 12.5rem;
+
+  .aboutContainer {
+    display: flex;
+    gap: 2rem;
+
+    .aboutMeText {
+      .topic {
+        display: flex;
+        gap: 1rem;
+        align-items: baseline;
+        margin-bottom: 2rem;
+
+        h3 {
+          font-size: var(--fz-heading);
+          color: var(--lightest-slate);
+
+          &::after {
+            content: "";
+            display: inline-block;
+            position: relative;
+            top: -5px;
+            width: 300px;
+            margin-left: 1rem;
+            height: 1px;
+            background-color: var(--lightest-navy);
+          }
+        }
+      }
+    }
+
+    .aboutMeImage {
+      margin-top: 3rem;
+      img {
+        border-radius: var(--border-radius);
+        filter: grayscale(100%);
+        width: 300px;
+        transition: 0.5s ease;
+
+        &:hover {
+          filter: grayscale(0%);
+          transform: translate(-10px, -10px);
+        }
+      }
+    }
+  }
+}

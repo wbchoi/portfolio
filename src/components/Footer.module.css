@@ -1,0 +1,13 @@
+.footer {
+  margin-inline: auto;
+  max-width: 56.25rem;
+  padding: 1.5rem;
+  letter-spacing: 0;
+
+  p {
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    color: var(--light-slate);
+  }
+}

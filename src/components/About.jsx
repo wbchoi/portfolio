@@ -9,7 +9,7 @@ const About = () => {
         <div className={styles.aboutMeText}>
           <div className={styles.topic}>
             <span>01.</span>
-            <h3>About Me</h3>
+            <h3>Sobre mim</h3>
           </div>
           <p>
             Olá! Sou o <span>Lucas</span>, um <span>Desenvolvedor front-end júnior</span> com experiência como product

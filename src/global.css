@@ -55,7 +55,15 @@ ul,
 li,
 button,
 span {
+  -webkit-font-smoothing: antialiased;
   list-style: none;
   font-family: var(--font-mono);
   color: var(--green);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-sans);
+  color: var(--slate);
+  -webkit-font-smoothing: antialiased;
 }

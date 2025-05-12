@@ -15,7 +15,9 @@ const Projects = () => {
       </div>
       <div className={styles.projectContainer}>
         <div className={styles.projectPreview}>
-          <img src={bikcraft} alt="Projeto bikcraft" />
+          <a href="https://wbchoi.github.io/bikcraft/" target="_blank">
+            <img src={bikcraft} alt="Projeto bikcraft" />
+          </a>
         </div>
         <div className={styles.projectDetails}>
           <span>Projeto</span>
@@ -44,7 +46,9 @@ const Projects = () => {
 
       <div className={`${styles.projectContainer} ${styles.inverted}`}>
         <div className={styles.projectPreview}>
-          <img src={eShop} alt="Projeto eShop" />
+          <a href="https://wbchoi.github.io/avanti-eShop/" target="_blank">
+            <img src={eShop} alt="Projeto eShop" />
+          </a>
         </div>
         <div className={styles.projectDetails}>
           <span>Projeto</span>
@@ -63,10 +67,10 @@ const Projects = () => {
             <p>React</p>
           </div>
           <div className={styles.projectView}>
-            <a href="https://github.com/wbchoi/bikcraft" target="_blank">
+            <a href="https://github.com/wbchoi/avanti-eShop" target="_blank">
               <img src={githubLogo} alt="Link para github" />
             </a>
-            <a href="https://wbchoi.github.io/bikcraft/" target="_blank">
+            <a href="https://wbchoi.github.io/avanti-eShop/" target="_blank">
               <img src={externalIcon} alt="Link para o projeto" />
             </a>
           </div>
@@ -75,7 +79,9 @@ const Projects = () => {
 
       <div className={styles.projectContainer}>
         <div className={styles.projectPreview}>
-          <img src={riddle} alt="Projeto riddle game" />
+          <a href="https://riddle-game-five.vercel.app/" target="_blank">
+            <img src={riddle} alt="Projeto riddle game" />
+          </a>
         </div>
         <div className={styles.projectDetails}>
           <span>Projeto</span>
@@ -94,10 +100,10 @@ const Projects = () => {
             <p>TS</p>
           </div>
           <div className={styles.projectView}>
-            <a href="https://github.com/wbchoi/bikcraft" target="_blank">
+            <a href="https://github.com/wbchoi/riddle-game" target="_blank">
               <img src={githubLogo} alt="Link para github" />
             </a>
-            <a href="https://wbchoi.github.io/bikcraft/" target="_blank">
+            <a href="https://riddle-game-five.vercel.app/" target="_blank">
               <img src={externalIcon} alt="Link para o projeto" />
             </a>
           </div>

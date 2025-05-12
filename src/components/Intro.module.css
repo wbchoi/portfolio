@@ -30,3 +30,22 @@
     line-height: 1.5;
   }
 }
+
+@media (max-width: 760px) {
+  .introSection {
+    height: 80vh;
+
+    span {
+      font-size: var(--fz-sm);
+    }
+
+    h1,
+    h2 {
+      font-size: var(--fz-title-mobile);
+    }
+
+    p {
+      font-size: var(--fz-sm);
+    }
+  }
+}

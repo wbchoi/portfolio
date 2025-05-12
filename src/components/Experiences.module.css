@@ -101,3 +101,44 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .experiencesSection {
+    .experiencesContainer {
+      .topic {
+        h3 {
+          font-size: var(--fz-xxl);
+          &::after {
+            width: 250px;
+          }
+        }
+      }
+
+      .experiences {
+        .jobDetails {
+          .role {
+            p {
+              font-size: var(--fz-lg);
+            }
+
+            span {
+              font-size: var(--fz-xxs);
+            }
+          }
+
+          .jobDescription {
+            ul {
+              li {
+                font-size: var(--fz-xs);
+              }
+            }
+
+            p {
+              font-size: var(--fz-xxs);
+            }
+          }
+        }
+      }
+    }
+  }
+}

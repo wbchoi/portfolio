@@ -11,3 +11,6 @@
     color: var(--light-slate);
   }
 }
+
+@media (max-width: 760px) {
+}

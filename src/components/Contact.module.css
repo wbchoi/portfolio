@@ -47,3 +47,35 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .contactSection {
+    .contactContainer {
+      .topic {
+        h3 {
+          font-size: var(--fz-xxl);
+
+          &::after {
+            width: 50px;
+          }
+        }
+      }
+    }
+
+    .contactInfo {
+      img {
+        width: 22px;
+      }
+
+      .contacts {
+        p {
+          font-size: var(--fz-sm);
+        }
+
+        a {
+          font-size: var(--fz-sm);
+        }
+      }
+    }
+  }
+}

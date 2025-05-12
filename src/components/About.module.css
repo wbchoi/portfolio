@@ -50,3 +50,40 @@
     }
   }
 }
+
+@media (max-width: 760px) {
+  .aboutSection {
+    .aboutContainer {
+      flex-direction: column;
+
+      .aboutMeText {
+        p {
+          font-size: var(--fz-sm);
+        }
+        .topic {
+          h3 {
+            font-size: var(--fz-xxl);
+            &::after {
+              width: 150px;
+            }
+          }
+        }
+      }
+
+      .aboutMeImage {
+        margin: 1.5rem auto;
+        img {
+          border-radius: var(--border-radius);
+          filter: grayscale(100%);
+          width: 300px;
+          transition: 0.5s ease;
+
+          &:hover {
+            filter: grayscale(0%);
+            transform: translate(0px, -10px);
+          }
+        }
+      }
+    }
+  }
+}

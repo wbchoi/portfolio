@@ -14,17 +14,17 @@ const Header = () => {
       <nav>
         <ul className={styles.navbar}>
           <li>
-            <Link to="about" smooth={true} duration={500} offset={-150} className={styles.navigation}>
+            <Link to="about" smooth={true} duration={500} offset={-250} className={styles.navigation}>
               <span>01.</span> Sobre
             </Link>
           </li>
           <li>
-            <Link to="experiences" smooth={true} duration={500} offset={-150} className={styles.navigation}>
+            <Link to="experiences" smooth={true} duration={500} offset={-250} className={styles.navigation}>
               <span>02.</span> Experiência
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500} offset={-150} className={styles.navigation}>
+            <Link to="projects" smooth={true} duration={500} offset={-250} className={styles.navigation}>
               <span>03.</span> Projetos
             </Link>
           </li>

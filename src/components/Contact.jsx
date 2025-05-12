@@ -12,7 +12,7 @@ const Contact = () => {
           <h3>Entre em contato</h3>
         </div>
         <div className={styles.contactInfo}>
-          <p>Caso queira entrar em contato comigo, me envie uma mensagem!</p>
+          <p>Caso queira entrar em contato comigo, me mande uma mensagem!</p>
           <div className={styles.contacts}>
             <img src={whatsIcon} alt="" />
             <p>+55 (11) 97529-7260</p>

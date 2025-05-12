@@ -4,7 +4,7 @@ import profileImg from "../assets/profile-img.jpg";
 
 const About = () => {
   return (
-    <section className={styles.aboutSection}>
+    <section className={styles.aboutSection} id="about">
       <div className={styles.aboutContainer}>
         <div className={styles.aboutMeText}>
           <div className={styles.topic}>

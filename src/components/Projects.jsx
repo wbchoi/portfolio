@@ -8,7 +8,7 @@ import externalIcon from "../assets/icon-external-link.svg";
 
 const Projects = () => {
   return (
-    <section className={styles.projectsSection}>
+    <section className={styles.projectsSection} id="projects">
       <div className={styles.topic}>
         <span>03.</span>
         <h3>Projetos</h3>

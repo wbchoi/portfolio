@@ -3,7 +3,7 @@ import styles from "./Experiences.module.css";
 
 const Experiences = () => {
   return (
-    <section className={styles.experiencesSection}>
+    <section className={styles.experiencesSection} id="experiences">
       <div className={styles.experiencesContainer}>
         <div className={styles.topic}>
           <span>02.</span>

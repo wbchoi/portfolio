@@ -3,7 +3,7 @@ import styles from "./Experiences.module.css";
 
 const Experiences = () => {
   return (
-    <section className={styles.experiencesSection} id="experiences">
+    <section className={`${styles.experiencesSection} reveal`} id="experiences">
       <div className={styles.experiencesContainer}>
         <div className={styles.topic}>
           <span>02.</span>
@@ -22,19 +22,25 @@ const Experiences = () => {
               <ul>
                 <li>Gerenciamento do backlog do produto</li>
                 <li>Análise de desempenho</li>
-                <li>Coleta e organização dos requisitos dos clientes para um projeto específico</li>
+                <li>
+                  Coleta e organização dos requisitos dos clientes para um
+                  projeto específico
+                </li>
                 <li>Tomada de decisões</li>
                 <li>Monitoramento com foco em melhoria contínua</li>
                 <li>Suporte ao sucesso do cliente</li>
                 <li>
-                  Colaboração e comunicação entre as partes interessadas, os clientes e a equipe de desenvolvimento
+                  Colaboração e comunicação entre as partes interessadas, os
+                  clientes e a equipe de desenvolvimento
                 </li>
               </ul>
               <p>
-                Como Product Owner, fui responsável por manter o backlog do produto e garantir seu alinhamento com as
-                metas e expectativas da empresa. Isso envolvia a identificação de bugs, a criação de histórias de
-                usuários e tarefas para a equipe de desenvolvimento, certificando-me de atender a todas as necessidades
-                dos clientes.
+                Como Product Owner, fui responsável por manter o backlog do
+                produto e garantir seu alinhamento com as metas e expectativas
+                da empresa. Isso envolvia a identificação de bugs, a criação de
+                histórias de usuários e tarefas para a equipe de
+                desenvolvimento, certificando-me de atender a todas as
+                necessidades dos clientes.
               </p>
             </div>
           </div>

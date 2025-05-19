@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header}`}>
       <div className={styles.logo}>
         <a onClick={() => scroll.scrollToTop()}>
           <img src={logo} alt="logo" />

@@ -5,7 +5,7 @@ import linkedinIcon from "../assets/icons-linkedin.svg";
 
 const Contact = () => {
   return (
-    <section className={styles.contactSection} id="contact">
+    <section className={`${styles.contactSection} reveal`} id="contact">
       <div className={styles.contactContainer}>
         <div className={styles.topic}>
           <span>04.</span>

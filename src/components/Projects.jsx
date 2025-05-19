@@ -8,7 +8,7 @@ import externalIcon from "../assets/icon-external-link.svg";
 
 const Projects = () => {
   return (
-    <section className={styles.projectsSection} id="projects">
+    <section className={`${styles.projectsSection} reveal`} id="projects">
       <div className={styles.topic}>
         <span>03.</span>
         <h3>Projetos</h3>
@@ -24,8 +24,9 @@ const Projects = () => {
           <h4>Bikcraft</h4>
           <div className={styles.projectDescription}>
             <p>
-              Venda e serviços para bicicletas personalizadas. <br /> Projeto desenvolvido para estudo das tecnologias{" "}
-              <span>HTML</span>, <span>CSS</span> e <span>Javascript</span>.
+              Venda e serviços para bicicletas personalizadas. <br /> Projeto
+              desenvolvido para estudo das tecnologias <span>HTML</span>,{" "}
+              <span>CSS</span> e <span>Javascript</span>.
             </p>
           </div>
           <div className={styles.projectStacks}>
@@ -55,9 +56,10 @@ const Projects = () => {
           <h4>eShop</h4>
           <div className={styles.projectDescription}>
             <p>
-              Website responsivo para um e-commerce. <br /> O projeto desenvolvido foi parte de um processo seletivo
-              utilizando as tecnologias <span>HTML</span>, <span>CSS</span>, <span>Javascript</span> e{" "}
-              <span>React</span>.
+              Website responsivo para um e-commerce. <br /> O projeto
+              desenvolvido foi parte de um processo seletivo utilizando as
+              tecnologias <span>HTML</span>, <span>CSS</span>,{" "}
+              <span>Javascript</span> e <span>React</span>.
             </p>
           </div>
           <div className={styles.projectStacks}>
@@ -88,8 +90,9 @@ const Projects = () => {
           <h4>Riddle game</h4>
           <div className={styles.projectDescription}>
             <p>
-              Jogo de adivinhação de palavras desenvolvido com as tecnologias <span>HTML</span>, <span>CSS</span>,{" "}
-              <span>Javascript</span>, <span>React</span> e <span>Typescript</span>.
+              Jogo de adivinhação de palavras desenvolvido com as tecnologias{" "}
+              <span>HTML</span>, <span>CSS</span>, <span>Javascript</span>,{" "}
+              <span>React</span> e <span>Typescript</span>.
             </p>
           </div>
           <div className={styles.projectStacks}>

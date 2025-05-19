@@ -10,7 +10,7 @@ const Intro = () => {
           1500,
           "",
           800,
-          "Seja bem-vindo!",
+          "Prazer em te ver por aqui!",
           1500,
           "",
           800,

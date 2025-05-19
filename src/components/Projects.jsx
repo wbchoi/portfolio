@@ -13,7 +13,7 @@ const Projects = () => {
         <span>03.</span>
         <h3>Projetos</h3>
       </div>
-      <div className={styles.projectContainer}>
+      <div className={`${styles.projectContainer} reveal`}>
         <div className={styles.projectPreview}>
           <a href="https://wbchoi.github.io/bikcraft/" target="_blank">
             <img src={bikcraft} alt="Projeto bikcraft" />
@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className={`${styles.projectContainer} ${styles.inverted}`}>
+      <div className={`${styles.projectContainer} reveal ${styles.inverted}`}>
         <div className={styles.projectPreview}>
           <a href="https://wbchoi.github.io/avanti-eShop/" target="_blank">
             <img src={eShop} alt="Projeto eShop" />
@@ -79,7 +79,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className={styles.projectContainer}>
+      <div className={`${styles.projectContainer} reveal`}>
         <div className={styles.projectPreview}>
           <a href="https://riddle-game-five.vercel.app/" target="_blank">
             <img src={riddle} alt="Projeto riddle game" />

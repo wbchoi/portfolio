@@ -1,10 +1,26 @@
-import React from "react";
+import { TypeAnimation } from "react-type-animation";
 import styles from "./Intro.module.css";
 
 const Intro = () => {
   return (
     <section className={`${styles.introSection} reveal`}>
-      <span>Olá, meu nome é</span>
+      <TypeAnimation
+        sequence={[
+          "Olá, meu nome é",
+          1500,
+          "",
+          800,
+          "Seja bem-vindo!",
+          1500,
+          "",
+          800,
+        ]}
+        wrapper="span"
+        speed={50}
+        repeat={Infinity}
+        className={styles.typingText}
+      />
+
       <h1>Lucas Choi.</h1>
       <h2>Desenvolvedor front end.</h2>
       <p>

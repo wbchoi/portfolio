@@ -79,7 +79,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className={`${styles.projectContainer} reveal`}>
+      <div className={`${styles.projectContainer}`}>
         <div className={styles.projectPreview}>
           <a href="https://riddle-game-five.vercel.app/" target="_blank">
             <img src={riddle} alt="Projeto riddle game" />

@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     ScrollReveal().reveal(".reveal", {
-      distance: "20px",
+      distance: "10px",
       duration: 1000,
       easing: "ease-in-out",
       origin: "left",
